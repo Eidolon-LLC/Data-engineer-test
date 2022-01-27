@@ -32,9 +32,11 @@ https://www.weatherapi.com/api-explorer.aspx
 * Приложите инструкцию по запуску.
 
 ### **Как запускать тестовую среду**
-1. ```docker-compose up -d```
-2. Заходим на http://localhost:8080/ 
-3. ```USERNAME=user```
-4. ```PASSWORD=bitnami```
+0. Установить docker и docker-compose https://docs.docker.com/engine/install/
+1. Зайти в директорию проекта чрез командую строку 
+2. Выполнить комнаду ```docker-compose up -d```
+3. Заходим на http://localhost:8080/ 
+4. ```USERNAME: user```
+5. ```PASSWORD: bitnami```
 
 ❗ Контейнеры занимают до 7 Гб на жестком диске и скачиваются около 20 мин.
