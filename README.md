@@ -34,7 +34,7 @@ https://www.weatherapi.com/api-explorer.aspx
 ### **Как запускать тестовую среду**
 0. Установить docker и docker-compose https://docs.docker.com/engine/install/
 1. Зайти в директорию проекта чрез командую строку 
-2. Выполнить комнаду ```docker-compose up -d```
+2. Выполнить комнаду ```docker compose up -d```
 3. Заходим на http://localhost:8080/ 
 4. ```USERNAME: user```
 5. ```PASSWORD: bitnami```
